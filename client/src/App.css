@@ -1,3 +1,28 @@
 .signup {
   padding-top: 100px;
 }
+
+body {
+  background-color: #007BFF !important;
+}
+
+.m-1 {
+  background-color: black;
+}
+
+.intro {
+  text-align: center;
+  font-family: 'Alata', sans-serif;
+  font-size-adjust: initial;
+  text-decoration-color: white;
+}
+
+h1.pageHeader {
+  margin: 25px;
+  color: aliceblue;
+  font-size: 50px
+}
+
+footer {
+  text-align-last: center;
+}
