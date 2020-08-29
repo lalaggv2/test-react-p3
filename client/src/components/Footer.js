@@ -10,5 +10,8 @@ export class Footer extends Component {
             <h5>Made with love by Angela, Diana, Lynn, Scott and Shannon</h5></div>
         </footer>
       </div>
+    )
+  }
+};
 
 export default Footer;  
