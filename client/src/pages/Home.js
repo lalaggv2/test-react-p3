@@ -3,8 +3,9 @@ import { AuthContext } from "../AuthContext";
 import "../App.css";
 import { Container, Row, Button, Col } from "react-bootstrap";
 import Axios from "axios";
-import family from "./images/family.jpg"
-import Carousel from "../components/BootstrapCarousel"
+import Carousel from "../components/BootstrapCarousel";
+import "../CarouselStyles.css";
+
 
 
 function Home(props) {

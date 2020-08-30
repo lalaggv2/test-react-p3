@@ -6,21 +6,24 @@ export class BootstrapCarousel extends Component {
     return (
       < div >
         < div className='container-fluid' >
-          < Carousel >
-            < Carousel.Item style={{ 'height': "600px" }} >
-              < img style={{ 'height': "600px" }}
+          {/* < Carousel > */}
+          <Carousel interval={600} keyboard={false} pauseOnHover={true}>
+            < Carousel.Item style={{ 'width': "800px" }} >
+              < img style={{ 'width': "800px" }}
 
                 className="d-block w-100"
-                src={'../assets/img/family.jpg'} />
+                src={'../assets/img/pair_1920.jpg'} />
 
-              < Carousel.Caption >
-                < h3 > Life </h3 >
+              < Carousel.Caption style={{
+                'z-index': 1
+              }} >
+                <h3> Life </h3 >
               </Carousel.Caption >
             </Carousel.Item >
 
-            < Carousel.Item style={{ 'height': "600px" }}>
+            < Carousel.Item style={{ 'height': "100%" }}>
 
-              < img style={{ 'height': "600px" }}
+              < img style={{ 'width': "100%" }}
 
                 className="d-block w-100"
 
